@@ -1,0 +1,331 @@
+{
+  "id": "33649fc8-c876-4244-accf-dbe813acba32",
+  "version": "2.0",
+  "name": "Trello",
+  "url": "https://trello.com",
+  "tests": [{
+    "id": "9725812a-42a8-415b-9220-d9f4c754ada6",
+    "name": "Trello",
+    "commands": [{
+      "id": "e926f1a7-816c-45e8-855a-8decd64d2ae3",
+      "comment": "",
+      "command": "open",
+      "target": "/hvantai2/boards",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d41a1872-ecfa-41d5-a088-9d3c3c0f5363",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28c38c49-51de-453e-8171-17229923f5a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1N9LJYg3C9x47Y",
+      "targets": [
+        ["css=.\\_1N9LJYg3C9x47Y", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/div/div[2]/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Tạo mới')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5631e167-bad0-4a19-8651-81a1844e7560",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1N9LJYg3C9x47Y",
+      "targets": [
+        ["css=.\\_1N9LJYg3C9x47Y", "css:finder"],
+        ["xpath=//div[@id='header']/div[3]/div/div[2]/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Tạo mới')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "773023c7-0334-41af-8874-057c562dcf60",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .boards-page-board-section .board-tile-details",
+      "targets": [
+        ["css=div:nth-child(3) > .boards-page-board-section .board-tile-details", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div/div[2]/div/div/div/div[3]/div/div[2]/ul/li/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/ul/li/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9203bd9-ae3e-4634-b101-9b5386b4ccb7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62cd8572-d81b-437a-8881-9f682a615b9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-show-menu > .board-header-btn-text",
+      "targets": [
+        ["css=.mod-show-menu > .board-header-btn-text", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div[5]/a[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Hiện Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49584011-fc7c-4113-b55e-a6158dc78e6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.board-menu-header-close-button",
+      "targets": [
+        ["css=.board-menu-header-close-button", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d389724e-50b0-4ebc-be90-b990cc104d9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SETnvPbUKHW-cx",
+      "targets": [
+        ["css=.SETnvPbUKHW-cx", "css:finder"],
+        ["xpath=//div[@id='header']/div[4]/button[3]/div/span", "xpath:idRelative"],
+        ["xpath=//button[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb325051-78b5-40bb-8554-2f03b354697a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.SETnvPbUKHW-cx",
+      "targets": [
+        ["css=.SETnvPbUKHW-cx", "css:finder"],
+        ["xpath=//div[@id='header']/div[4]/button[3]/div/span", "xpath:idRelative"],
+        ["xpath=//button[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f992b69-2ff2-46d5-af4e-dc5daa2a3f37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2Twwgx1RZOAQRy .SETnvPbUKHW-cx",
+      "targets": [
+        ["css=.\\_2Twwgx1RZOAQRy .SETnvPbUKHW-cx", "css:finder"],
+        ["xpath=//div[@id='header']/div[4]/button[3]/div/span", "xpath:idRelative"],
+        ["xpath=//button[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96cba04f-de62-4a03-aa8c-99db498741c0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.SETnvPbUKHW-cx",
+      "targets": [
+        ["css=.SETnvPbUKHW-cx", "css:finder"],
+        ["xpath=//div[@id='header']/div[4]/button[3]/div/span", "xpath:idRelative"],
+        ["xpath=//button[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12a1d6fd-10a8-4e94-9e14-ec13cb3a129a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3CAAHVX_UQofc8:nth-child(4) .sc-bdVaJa",
+      "targets": [
+        ["css=.\\_3CAAHVX_UQofc8:nth-child(4) .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div[3]/div/div/button[4]/span[2]/span", "xpath:idRelative"],
+        ["xpath=//button[4]/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59bbfbd7-5fa7-4230-b8be-a5b7c1339320",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3I1cdRz4BMip2a",
+      "targets": [
+        ["css=.\\_3I1cdRz4BMip2a", "css:finder"],
+        ["xpath=//header/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400522d1-7320-42cb-b40f-90e46e146068",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3CAAHVX_UQofc8:nth-child(2) > .cSOqrUxBxAu8by",
+      "targets": [
+        ["css=.\\_3CAAHVX_UQofc8:nth-child(2) > .cSOqrUxBxAu8by", "css:finder"],
+        ["xpath=//div[@id='header']/div[3]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gần đây')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a21f6a1a-16b9-47c3-bc4a-9ee57707d142",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-list:nth-child(3)",
+      "targets": [
+        ["css=.js-list:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='board']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0101f08e-93b3-40ba-a9a8-6ca32308ac1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MZY1FLdPuAwL8r .sc-bdVaJa",
+      "targets": [
+        ["css=.MZY1FLdPuAwL8r .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7912d0a-c7cd-47ca-a1a0-812a09dd523a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MZY1FLdPuAwL8r .sc-bdVaJa",
+      "targets": [
+        ["css=.MZY1FLdPuAwL8r .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3a46b99-1725-4358-9540-e8bf000f83a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1e3OHas5aNG1hj > svg",
+      "targets": [
+        ["css=.\\_1e3OHas5aNG1hj > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1586d05-5409-4990-a742-f01f095836f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1ul6gs_kHQukwk > img",
+      "targets": [
+        ["css=.\\_1ul6gs_kHQukwk > img", "css:finder"],
+        ["xpath=//img[@alt='Biểu tượng thu gọn điều hướng Không gian làm việc']", "xpath:img"],
+        ["xpath=//main[@id='popover-boundary']/div/div/nav/div/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "017bcaed-3d8d-4d71-a9b5-958ac49dec37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.placeholder",
+      "targets": [
+        ["css=.placeholder", "css:finder"],
+        ["xpath=//div[@id='board']/div[4]/form/a/span", "xpath:idRelative"],
+        ["xpath=//form/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Thêm danh sách khác')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e1615b8-e89f-4230-bd69-79c4a9485284",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cancel-edit",
+      "targets": [
+        ["css=.js-cancel-edit", "css:finder"],
+        ["xpath=//div[@id='board']/div[4]/form/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[18]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea8a26b-f362-4235-8382-52a2181ea99c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.placeholder",
+      "targets": [
+        ["css=.placeholder", "css:finder"],
+        ["xpath=//div[@id='board']/div[4]/form/a/span", "xpath:idRelative"],
+        ["xpath=//form/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Thêm danh sách khác')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4ebe3b6-0112-4a59-b523-3f11c38a1206",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.list-name-input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='board']/div[4]/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Phụ Kiện"
+    }, {
+      "id": "a6d889e9-6414-4393-8451-3e3078c6e7d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nch-button",
+      "targets": [
+        ["css=.nch-button", "css:finder"],
+        ["xpath=//input[@value='Thêm danh sách']", "xpath:attributes"],
+        ["xpath=//div[@id='board']/div[4]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8350445-bdb9-4e8c-ade1-f12519c3860a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nch-button",
+      "targets": [
+        ["css=.nch-button", "css:finder"],
+        ["xpath=//input[@value='Thêm danh sách']", "xpath:attributes"],
+        ["xpath=//div[@id='board']/div[4]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "183972dd-f224-4942-955c-52f25a8a02dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c7b5ec6-6518-4631-8e2d-c5a53bddcd00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cancel-edit",
+      "targets": [
+        ["css=.js-cancel-edit", "css:finder"],
+        ["xpath=//div[@id='board']/div[5]/form/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[21]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df59d3d1-5d5e-4d24-ae75-20241e4fea18",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9ae2089c-6d96-4a82-9b68-2e57cb14f349",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9725812a-42a8-415b-9220-d9f4c754ada6"]
+  }],
+  "urls": ["https://trello.com/"],
+  "plugins": []
+}
